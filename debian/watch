@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-is-glob-$1/ \
+ https://github.com/jonschlinkert/is-glob/tags .*/archive/.*/v?([\d\.]+).tar.gz

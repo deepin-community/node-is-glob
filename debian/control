@@ -1,0 +1,29 @@
+Source: node-is-glob
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , mocha <!nocheck>
+ , node-is-extglob <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-glob
+Vcs-Git: https://salsa.debian.org/js-team/node-is-glob.git
+Homepage: https://github.com/jonschlinkert/is-glob
+Rules-Requires-Root: no
+
+Package: node-is-glob
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-is-extglob
+Description: Node module to return true if a string is a glob or extglob
+ Node module providing a function that returns true if a string contains
+ a glob or extglob. Extglobs add the expressive power of regular expressions
+ to globs patterns.
+ .
+ Node.js is an event-based server-side JavaScript engine.
