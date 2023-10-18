@@ -1,3 +1,10 @@
+node-is-glob (4.0.3-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-is-glob: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 08 Dec 2022 00:42:32 +0000
+
 node-is-glob (4.0.3-1) unstable; urgency=medium
 
   * Team upload

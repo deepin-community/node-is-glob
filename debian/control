@@ -19,7 +19,7 @@ Package: node-is-glob
 Architecture: all
 Depends:
  ${misc:Depends}
- , nodejs
+ , nodejs:any
  , node-is-extglob
 Description: Node module to return true if a string is a glob or extglob
  Node module providing a function that returns true if a string contains
